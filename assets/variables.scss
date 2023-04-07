@@ -1,0 +1,18 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+@font-face {
+    font-family: "Roboto Flex";
+    font-display: auto;
+    src: local("RobotoFlex"), local("Roboto Flex"),
+      url("@/assets/fonts/RobotoFlex.ttf")
+        format("truetype");
+    font-weight: 125 950;
+    font-stretch: 75% 125%;
+    font-style: normal;
+  }
+
+  html {
+    scroll-behavior: smooth;
+ }
